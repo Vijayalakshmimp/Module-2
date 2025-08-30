@@ -10,13 +10,25 @@ To write a Python program that checks whether a given number is a **palindrome**
 4. Use a `while` loop to reverse the digits:
    - While `temp > 0`:
      - `rev = (10 * rev) + temp % 10`
-     - `temp = temp // 10`
+     - `temp //= 10`
 5. After the loop, compare `rev` with `num`:
    - If equal, print that the number is a palindrome.
    - Else, print that it is not a palindrome.
 
 ## 🧾 Program
-Add code Here
+num=int(input())
+rev=0
+temp=num
+while temp>0:
+    rev=(10*rev)+temp%10
+    temp//=10
+if rev==num:
+    print("The given number {} is a Palindrome".format(num))
+else:
+    print("The given number {} is not a palindrome".format(num))
 ## Output
+<img width="1149" height="222" alt="image" src="https://github.com/user-attachments/assets/1a9c8499-d604-4f75-8a13-a4d660e31d7b" />
+
 
 ## Result
+Thus the Python program that checks whether a given number is a **palindrome** using loops is executed and verified successfully.
