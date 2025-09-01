@@ -12,8 +12,17 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+def result(a,b): 
+
+    print(f"modulo is {a%b}") 
+
+a=int(input()) 
+
+b=int(input())
 
 ## Output
+<img width="1234" height="264" alt="image" src="https://github.com/user-attachments/assets/98204b1c-0647-4024-91b0-5a0de6eec4a5" />
+
 
 ## Result
+Thus the Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator is executed and verified successfully.
